@@ -1,0 +1,38 @@
+.electronicsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.electronicItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  flex-basis: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.electronicItem img {
+  width: 100%;
+  height: auto;
+}
+
+.electronicItem h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+@media (min-width: 600px) {
+  .electronicItem {
+    flex-basis: 48%;
+  }
+}
+
+@media (min-width: 900px) {
+  .electronicItem {
+    flex-basis: 30%;
+  }
+}

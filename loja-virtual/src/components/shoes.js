@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from "./Header/header";
 import Footer from './Footer/footer';
+import ShoesList from './ListaProdutos/shoesList';
 
 function Shoes() {
   return (
     <>
       <Header />
-      <h1>shoes</h1>
+      <ShoesList/>
       <Footer/>
     </>
   );

@@ -1,0 +1,39 @@
+/* src/components/ScrollBanner.module.css */
+.scrollBanner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: -9999;
+  }
+  
+  .bannerWrapper {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out; /* Transição suave para rolagem */
+  }
+  
+  .bannerItem {
+    min-width: 100%; /* Cada item ocupa 100% da largura visível */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Organiza a imagem acima do texto */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bannerItem img {
+    max-width: 100%; /* Imagem se ajusta à largura do contêiner */
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .bannerItem h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  

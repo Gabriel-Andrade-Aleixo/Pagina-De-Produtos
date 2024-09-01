@@ -1,0 +1,38 @@
+.shoesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.shoeItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  flex-basis: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.shoeItem img {
+  width: 100%;
+  height: auto;
+}
+
+.shoeItem h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+@media (min-width: 600px) {
+  .shoeItem {
+    flex-basis: 48%;
+  }
+}
+
+@media (min-width: 900px) {
+  .shoeItem {
+    flex-basis: 30%;
+  }
+}

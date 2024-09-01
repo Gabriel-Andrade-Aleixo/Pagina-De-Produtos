@@ -1,0 +1,38 @@
+.clothesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.clothItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.clothItem img {
+    width: 100%;
+    height: auto;
+}
+
+.clothItem h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+@media (min-width: 600px) {
+    .clothItem {
+        flex-basis: 48%;
+    }
+}
+
+@media (min-width: 900px) {
+    .clothItem {
+        flex-basis: 30%;
+    }
+}

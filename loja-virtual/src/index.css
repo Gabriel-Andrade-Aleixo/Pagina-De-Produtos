@@ -24,3 +24,10 @@ nav {
 body {
     font-family: monospace;
 }
+
+hr{
+    color: black;
+    background-color: black;
+    width: 100%;
+    height: 10px;
+}
