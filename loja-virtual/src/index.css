@@ -1,8 +1,15 @@
-*{
+* {
     border: 0;
     margin: 0;
     padding: 0;
     transition: .3s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 nav {
@@ -14,6 +21,6 @@ nav {
     color: #fff;
 }
 
-body{
+body {
     font-family: monospace;
 }

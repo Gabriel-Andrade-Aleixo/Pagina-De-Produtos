@@ -1,16 +1,14 @@
-/* Estilos básicos para o Header */
 .logo h1 {
     margin: 0;
     font-size: 24px;
 }
 
 .menuButton {
-    display: none; /* Escondido por padrão, mostrado em telas menores */
+    display: none;
     font-size: 28px;
     cursor: pointer;
 }
 
-/* Estilos para a navegação */
 .navLinks {
     list-style-type: none;
     display: flex;
@@ -35,7 +33,6 @@
 
 /* Estilos Responsivos */
 
-/* Para telas menores (ex. smartphones) */
 @media (max-width: 768px) {
     .menuButton {
         display: block;
@@ -49,7 +46,7 @@
         width: 100%;
         background-color: #333;
         padding: 10px 0;
-        display: none; /* Escondido por padrão, mostrado quando o menu é aberto */
+        display: none; 
         align-items: center;
     }
 
@@ -57,7 +54,6 @@
         margin: 10px 0;
     }
 
-    /* Mostrar o menu quando o botão é clicado */
     .navLinks.open {
         display: flex;
     }

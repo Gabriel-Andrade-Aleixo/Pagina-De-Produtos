@@ -1,0 +1,40 @@
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerContent div {
+    margin-bottom: 10px;
+}
+
+.contactInfo,
+.socialLinks,
+.copyright {
+    margin: 10px 0;
+}
+
+.socialLinks a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.socialLinks a:hover {
+    color: #ddd;
+}
+
+@media (min-width: 768px) {
+    .footerContent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contactInfo,
+    .socialLinks,
+    .copyright {
+        margin: 0;
+    }
+}
