@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from "./Header/header";
 
 function Shoes() {
   return (
     <>
-    <h1>shoes</h1>
+      <Header />
+      <h1>shoes</h1>
     </>
   );
 }

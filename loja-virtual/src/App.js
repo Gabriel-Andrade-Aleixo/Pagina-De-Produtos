@@ -1,14 +1,24 @@
-import React from 'react';
-import Rotas from './routes/route';
-// import Header from './components/Header/header';
-// import { BrowserRouter as Router } from 'react-router-dom';
-
+import React from "react";
+import {Route, Routes} from "react-router-dom";
+import Home from "./components/home";
+import Products from "./components/products";
+import Clothes from "./components/clothes";
+import Eletronics from "./components/eletronics";
+import Shoes from "./components/shoes";
+import NotFound from "./components/notFound";
 
 function App() {
   return (
     <>
-      <Rotas />
-      {/* <Header/> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="products" element={<Products />} />
+        <Route path="clothes" element={<Clothes />} />
+        <Route path="eletronics" element={<Eletronics />} />
+        <Route path="shoes" element={<Shoes />} />
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 }

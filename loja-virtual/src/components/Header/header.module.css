@@ -1,63 +1,64 @@
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+/* Estilos básicos para o Header */
 .logo h1 {
     margin: 0;
-    font-size: 1.5rem;
-}
-
-.navLinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-}
-
-.navLinks li {
-    display: inline;
-}
-
-.navLinks a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navLinks a:hover {
-    text-decoration: underline;
+    font-size: 24px;
 }
 
 .menuButton {
-    display: none;
+    display: none; /* Escondido por padrão, mostrado em telas menores */
+    font-size: 28px;
+    cursor: pointer;
 }
 
+/* Estilos para a navegação */
+.navLinks {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navLinks li {
+    margin: 0;
+}
+
+.navLinks li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navLinks li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+
+/* Para telas menores (ex. smartphones) */
 @media (max-width: 768px) {
-    .navLinks {
-        flex-direction: column;
-        align-items: center;
-        display: none;
+    .menuButton {
+        display: block;
     }
 
-    .navLinks.active {
-        display: flex;
+    .navLinks {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+        display: none; /* Escondido por padrão, mostrado quando o menu é aberto */
+        align-items: center;
     }
 
     .navLinks li {
-        margin: 0.5rem 0;
+        margin: 10px 0;
     }
 
-    nav .menuButton {
-        display: block;
-        cursor: pointer;
+    /* Mostrar o menu quando o botão é clicado */
+    .navLinks.open {
+        display: flex;
     }
 }
-

@@ -1,0 +1,19 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+body{
+    font-family: monospace;
+}
