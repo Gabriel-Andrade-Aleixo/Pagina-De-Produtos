@@ -1,9 +1,8 @@
 
 ---
 
-# Projeto React
-
-Este é um projeto básico em React que demonstra como criar um layout com um footer fixo na parte inferior da página. 
+# Teste de Desenvolvimento: Página de Produtos.
+Uma página de produtos de uma loja que consome dados da API https://fakeapi.platzi.com/en/about/introduction/
 
 ## Pré-requisitos
 
