@@ -1,4 +1,3 @@
-Claro! Aqui está um exemplo de um README que inclui instruções para rodar um projeto React localmente.
 
 ---
 
