@@ -38,7 +38,7 @@ const ProductList = () => {
     return (
         <div>
             <div>
-                <label>
+                <label className={styles.sortedProducts}>
                     Ordenar por:
                     <select onChange={(e) => setSortBy(e.target.value)}>
                         <option value="preco">Preço</option>

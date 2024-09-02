@@ -10,7 +10,7 @@ function Header() {
     return (
         <nav>
             <div className={styles.logo}>
-                <h1>Header</h1>
+                <img src='https://starrail.honeyhunterworld.com/img/item/herta-space-station-mastery-mark-item_icon_figure.webp?x82863'></img>
             </div>
             <div className={styles.menuButton} onClick={toggleMenu}>
                 ☰

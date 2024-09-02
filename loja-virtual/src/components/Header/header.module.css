@@ -1,6 +1,6 @@
-.logo h1 {
+.logo img {
     margin: 0;
-    font-size: 24px;
+    height: 50px;
 }
 
 .menuButton {
@@ -22,9 +22,9 @@
 }
 
 .navLinks li a {
-    color: #fff;
     text-decoration: none;
     font-size: 18px;
+    color: aliceblue;
 }
 
 .navLinks li a:hover {
@@ -44,9 +44,9 @@
         top: 50px;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: #63009c;
         padding: 10px 0;
-        display: none; 
+        display: none;
         align-items: center;
     }
 
