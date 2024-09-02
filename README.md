@@ -14,8 +14,9 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) e o [npm](https://www.npmj
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/Gabriel-Andrade-Aleixo/Pagina-De-Produtos.git
+   cd Pagina-De-Produtos
+   cd loja-virtual
    ```
 
 2. **Instale as dependências**
