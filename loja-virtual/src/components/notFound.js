@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from './Header/header'
+import Footer from './Footer/footer'
 
 function NotFound() {
     return (
         <>
-            <h1>Erro 404 - Não encontrada</h1>
+            <Header/>
+            <h1>Erro 404 - Página não encontrada!</h1>
+            <Footer/>
         </>
     );
 }
