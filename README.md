@@ -24,6 +24,15 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) e o [npm](https://www.npmj
 
    ```bash
    npm install
+   npm install axios
+   npm install web-vitals
+   npm install react
+   npm install react-scripts
+   npm install react-router-dom
+   npm install react-dom
+   npm install @testing-library/user-event
+   npm install @testing-library/react
+   npm install @testing-library/jest-dom
    ```
 
 ## Rodando o Projeto
