@@ -1,10 +1,8 @@
-Claro! Aqui está um exemplo de um README que inclui instruções para rodar um projeto React localmente.
 
 ---
 
-# Projeto React
-
-Este é um projeto básico em React que demonstra como criar um layout com um footer fixo na parte inferior da página. 
+# Teste de Desenvolvimento: Página de Produtos.
+Uma página de produtos de uma loja que consome dados da API https://fakeapi.platzi.com/en/about/introduction/
 
 ## Pré-requisitos
 
@@ -15,8 +13,9 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) e o [npm](https://www.npmj
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/Gabriel-Andrade-Aleixo/Pagina-De-Produtos.git
+   cd Pagina-De-Produtos
+   cd loja-virtual
    ```
 
 2. **Instale as dependências**
@@ -25,6 +24,15 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) e o [npm](https://www.npmj
 
    ```bash
    npm install
+   npm install axios
+   npm install web-vitals
+   npm install react
+   npm install react-scripts
+   npm install react-router-dom
+   npm install react-dom
+   npm install @testing-library/user-event
+   npm install @testing-library/react
+   npm install @testing-library/jest-dom
    ```
 
 ## Rodando o Projeto
